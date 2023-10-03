@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">FoodApp</string>
+    <string name="home">Home</string>
+    <string name="detail">Detail</string>
+    <string name="favourites">Favourites</string>
+    <string name="chokladbollar">Chokladbollar</string>
+    <string name="dessert">Dessert</string>
+    <string name="salad">Salad</string>
+    <string name="soup">Soup</string>
+    <string name="drink">Drink</string>
+    <string name="italian_chopped_salad">Italian Chopped Salad</string>
+    <string name="borsch">Borsch</string>
+    <string name="whiskey_sour">Whiskey Sour</string>
+    <string name="ingredient_1">1 kilo of pea protein</string>
+    <string name="ingredient_2">1 bunch of parsley</string>
+    <string name="ingredient_3">2 onions</string>
+    <string name="ingredient_4">1 clove of garlic</string>
+    <string name="recipe_1">Measure 2 ounces whiskey, 1 ounce lemon juice, and ¾ ounce simple syrup. We prefer bourbon in our whiskey sour, but you can make it with any type of whiskey.</string>
+    <string name="recipe_2">Shake all the ingredients together in a cocktail shaker until cold. Serve over lots of ice and enjoy! Try our clear ice if you want a stunning look.</string>
+    <string name="recipe_3">Add an egg white if desired. Whiskey sours are traditionally served with a slice or orange and a cocktail cherry. You can also add an egg white to get a frothy foam topping: that makes it a Boston Sour! Go to Whiskey Sour with Egg White for more.</string>
+    <string name="recipe_4"></string>
+    <string name="ingredients_amp_directions"><![CDATA[Ingredients & Directions]]></string>
+    <string name="all">All</string>
+    <string name="desserts">Desserts</string>
+    <string name="soups">Soups</string>
+    <string name="salads">Salads</string>
+    <string name="drinks">Drinks</string>
 </resources>

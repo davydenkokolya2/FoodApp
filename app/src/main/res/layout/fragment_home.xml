@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <TextView
+        android:id="@+id/tvAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/sfprotext_medium"
+        android:text="@string/all"
+        app:layout_constraintEnd_toStartOf="@+id/tvDesserts"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="@+id/rvHome"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDesserts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfprotext_medium"
+        android:text="@string/desserts"
+        app:layout_constraintEnd_toStartOf="@+id/tvSoups"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvAll"
+        app:layout_constraintTop_toTopOf="@+id/tvAll" />
+
+    <TextView
+        android:id="@+id/tvSoups"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfprotext_medium"
+        android:text="@string/soups"
+        app:layout_constraintEnd_toStartOf="@+id/tvSalads"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvDesserts"
+        app:layout_constraintTop_toTopOf="@+id/tvDesserts" />
+
+    <TextView
+        android:id="@+id/tvSalads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfprotext_medium"
+        android:text="@string/salads"
+        app:layout_constraintEnd_toStartOf="@+id/tvDrink"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvSoups"
+        app:layout_constraintTop_toTopOf="@+id/tvSoups" />
+
+    <TextView
+        android:id="@+id/tvDrink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfprotext_medium"
+        android:text="@string/drinks"
+        app:layout_constraintEnd_toEndOf="@+id/rvHome"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvSalads"
+        app:layout_constraintTop_toTopOf="@+id/tvSalads" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHome"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAll" />
+</androidx.constraintlayout.widget.ConstraintLayout>
